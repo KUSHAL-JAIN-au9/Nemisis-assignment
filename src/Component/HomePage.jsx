@@ -1,6 +1,5 @@
 import { Box, Typography, makeStyles } from '@material-ui/core';
-import Youtube from '../Assets/Images/youtube.png';
-import InstaTele from '../Assets/Images/InstaTele.jpeg';
+
 
 const useStyles = makeStyles({
     component: {
@@ -15,7 +14,7 @@ const useStyles = makeStyles({
     }
 })
 
-const CodeForInterview = () => {
+const HomePage = () => {
     const classes = useStyles();
     return (
         <Box className={classes.component}>
@@ -25,4 +24,4 @@ const CodeForInterview = () => {
     )
 }
 
-export default CodeForInterview;
+export default HomePage;
